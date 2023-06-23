@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content = "moja, stran, Onsen">
+    <meta name="description" content = "Slika Onsena ter kratek opis">
+    <meta name="autor" content = "Arjana Petrovcic">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- google font family -->
+    <link rel="stylesheet" href="../stili.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Petrona&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Petrona&display=swap" rel="stylesheet">
+    <title>Onsen</title>
+    </head>
+    
+  <body>
+ <header>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html"><strong>Home</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../blog.html"><strong>Blog</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../gallery.html"><strong>Gallery</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../archive.html"><strong>Archive</strong></a>
+            </li>
+
+            <li class="nav-item"></li>
+          </ul>
+            
+            <button class="btn btn-outline contact" data-bs-toggle="modal" data-bs-target="#contact"><strong>Contact</strong></button>
+          
+        </div>
+      
+    </nav>   
+  </header> 
+    <br><br>
+
+<!-- banner -->       
+    <div class="container-fluid">
+      <div class="row" style="background-color:rgb(163, 234, 255) ;">
+        <div class="fullpagemenu" id="nav">
+          <div class="banner d-none d-md-block">
+            <img src="../slike/banner.jpg" alt="banner of sakura tree">
+          </div>
+        </div>
+       <br><br>
+
+
+<!-- jumbotron --> 
+<div class="container">
+  <div class="row">
+        <div class="jumbotron">
+          <p class="lead"></p>
+        </div>
+  </div>
+</div>       
+ <div class="col-2" style="background-color: rgb(163, 234, 255);"></div>
+  </div>    
+</div>
+      
+   <!-- container 1 -->    
+<div class="container" style="background-color: rgb(163, 234, 255); text-align: center; max-width: 1520px;">    
+  <div class="row">
+    <div class="col-1 long" style="background-color: rgb(163, 234, 255);">
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <article>
+        <h3>Onsen</h3>
+          <img src="../slike/heritage/velika/onsen_1024x768.jpg" class="center" alt="..." />
+              <p>Natural hot springs (温泉, onsen) are numerous and highly popular across Japan. Every region of the country has its share 
+                of hot springs and resort towns, which come with them. <br><br>There are many types of hot springs, distinguished by the minerals 
+                dissolved in the water. Different minerals provide different health benefits, and all hot springs are supposed to have a 
+                relaxing effect on your body and mind. Hot spring baths come in many varieties, indoors and outdoors, gender separated and mixed, 
+                developed and undeveloped. Many hot spring baths belong to a ryokan, while others are public bath houses. 
+                <p>Source: <a href="https://www.japan-guide.com/e/e2292.html" title="more about onsen on this website" target="_blank">https://www.japan-guide.com</a></p>
+      </article>
+      <div class="form-inline m-0 p-0 justify-content-center mb-2">
+        <a class="btn previous m-1" href="shrine.html" role="button">Previous</a>
+        <a class="btn back m-1" href="../gallery.html" role="button">Back</a>
+        <a class="btn next m-1" href="shrine.html" role="button">Next</a>
+        </div>    
+</div> 
+</div>
+</div>
+ <!-- Modal -->
+ <div class="modal" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">Contact us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="inputname" class="form-label">First name</label>
+          <input type="text" class="form-control" id="inputname" placeholder="First name">
+        </div>
+        <div class="mb-3">
+          <label for="inputlastname" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="inputlastname" placeholder="Last name">
+        </div>
+        <div class="mb-3">
+          <label for="inputemail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="inputemail" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="textarea" rows="3" placeholder="Your text here"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+<div class="container">
+  <div class="row">
+  <footer><p>Copyright, spring 2021, Arjana Petrovcic</p></footer>
+  </div>
+</div> 
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+
+</html>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content = "moja, stran, Snow monkey">
+    <meta name="description" content = "Stran predstavlja sliko snow monkeys v onsenu ter kratek opis">
+    <meta name="autor" content = "Ime Priimek">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- google font family -->
+    <link rel="stylesheet" href="../stili.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Petrona&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Petrona&display=swap" rel="stylesheet">
+    <title>Snow monkey</title>
+    </head>
+    
+  <body>
+ <header>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html"><strong>Home</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../blog.html"><strong>Blog</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../gallery.html"><strong>Gallery</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../archive.html"><strong>Archive</strong></a>
+            </li>
+
+            <li class="nav-item"></li>
+          </ul>
+            
+            <button class="btn btn-outline contact" data-bs-toggle="modal" data-bs-target="#contact"><strong>Contact</strong></button>
+          
+        </div>
+      
+    </nav>   
+  </header> 
+    <br><br>
+
+<!-- banner -->       
+    <div class="container-fluid">
+      <div class="row" style="background-color:rgb(163, 234, 255) ;">
+        <div class="fullpagemenu" id="nav">
+          <div class="banner d-none d-md-block">
+            <img src="../slike/banner.jpg" alt="banner of sakura tree">
+          </div>
+        </div>
+       <br><br>
+
+
+<!-- jumbotron --> 
+<div class="container">
+  <div class="row">
+        <div class="jumbotron">
+          <p class="lead"></p>
+        </div>
+  </div>
+</div>       
+ <div class="col-2" style="background-color: rgb(163, 234, 255);"></div>
+  </div>    
+</div>
+      
+   <!-- container 1 -->    
+<div class="container" style="background-color: rgb(163, 234, 255); text-align: center; max-width: 1520px;">    
+  <div class="row">
+    <div class="col-1 long" style="background-color: rgb(163, 234, 255);">
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <article>
+        <h3>Snow monkey</h3>
+          <img src="../slike/animals/velika/monkey_1024x768.jpg" class="center" alt="..." />
+              <p>The Jigokudani Monkey Park (地獄谷野猿公苑, Jigokudani Yaen Kōen) offers visitors the unique experience of seeing wild monkeys bathing 
+                in a natural hot spring. The park is inhabited by Japanese Macaques, which are also known as Snow Monkeys. It is located in the monkey's
+                natural habitat, in the forests of the Jigokudani valley in Yamanouchi, not far from the onsen towns of Shibu and Yudanaka.
+                <p>Source: <a href="https://www.japan-guide.com/e/e6028.html" title="more about snow monkeyes on this website" target="_blank">https://www.japan-guide.com</a></p>
+      </article>
+      <div class="form-inline m-0 p-0 justify-content-center mb-2">
+        <a class="btn previous m-1" href="deer.html" role="button">Previous</a>
+        <a class="btn back m-1" href="../gallery.html" role="button">Back</a>
+        <a class="btn next m-1" href="shibainu.html" role="button">Next</a>
+        </div>    
+</div> 
+</div>
+</div>
+ <!-- Modal -->
+ <div class="modal" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">Contact us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="inputname" class="form-label">First name</label>
+          <input type="text" class="form-control" id="inputname" placeholder="First name">
+        </div>
+        <div class="mb-3">
+          <label for="inputlastname" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="inputlastname" placeholder="Last name">
+        </div>
+        <div class="mb-3">
+          <label for="inputemail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="inputemail" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="textarea" rows="3" placeholder="Your text here"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+<div class="container">
+  <div class="row">
+  <footer><p>Copyright, spring 2021, Arjana Petrovcic</p></footer>
+  </div>
+</div> 
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+
+</html>

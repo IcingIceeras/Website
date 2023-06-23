@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content = "moja, stran, youkai">
+    <meta name="description" content = "Stran govori o Yokai tako imenovanih demonih, ki so znani na Japonskem">
+    <meta name="autor" content = "Arjana Petrovcic">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- google font family -->
+    <link rel="stylesheet" href="stili.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Petrona&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Petrona&display=swap" rel="stylesheet">
+    <title>Yōkai</title>
+    </head>
+    
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><strong>Home</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html"><strong>Blog</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html"><strong>Gallery</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="archive.html"><strong>Archive</strong></a>
+            </li>
+
+            <li class="nav-item"></li>
+          </ul>
+            
+            <button class="btn btn-outline contact" data-bs-toggle="modal" data-bs-target="#contact"><strong>Contact</strong></button>
+          
+        </div>
+      
+    </nav>    
+    <br><br>
+
+<!-- banner -->       
+    <div class="container-fluid">
+      <div class="row" style="background-color:rgb(163, 234, 255) ;">
+        <div class="fullpagemenu" id="nav">
+          <div class="banner d-none d-md-block">
+            <img src="slike/banner.jpg" alt="banner of sakura tree">
+          </div>
+        </div>
+       <br><br>
+
+
+<!-- jumbotron --> 
+<div class="container">
+  <div class="row">
+        <div class="jumbotron">
+          <p class="lead"></p>
+        </div>
+  </div>
+</div>       
+ <div class="col-2" style="background-color: rgb(163, 234, 255);"></div>
+  </div>    
+</div>
+      
+   <!-- container 1 -->    
+<div class="container youkai">    
+  <div class="row">
+    <div class="col-1" style="background-color: rgb(163, 234, 255);">
+      <article>
+        <h2>Yōkai</h2>
+          <p><b>Yōkai</b> are a class of supernatural monsters, spirits and demons from Japanese folklore. The word 'Yōkai' is made up of the kanji for "bewitching"; "attractive"; 
+            "calamity;" and "spectre"; "apparition"; "mystery"; "suspicious". They can also be called ayakashi (妖), mononoke (物の怪), mamono (魔物) or youma (妖魔). 
+            Yōkai range eclectically from the malevolent to the mischievous, or occasionally bring good fortune to those who encounter them.<br><br>
+            One of the oldest examples of yokai art was the Hyakki Yagyo Zu, a  16th century scroll that portrayed a pandemonium of Japanese monsters. 
+            This formed the basis for <b>Japan’s first definitive encyclopedia of yokai characters</b> through the work of 18th century printmaker Toriyama Sekien. 
+            Using the newly developed technologies of woodblock printing, Sekien was able to mass-produce yokai illustrations in his own catalogs of the monster parade. 
+            How many yokai are there? The series was known as <em>Gazu Hyakki Yagyo</em> series, meaning <em>Illustrated Night Parade of a Hundred Spirits</em>, although in this context, 
+            one hundred just means <em>many</em>! These three texts illustrate more than two hundred of these Japanese demons, each with its own brief description and commentary.
+          </p><br>
+          <p class="linki">Source: <a href="https://mythus.fandom.com/wiki/Y%C5%8Dkai" title="more details about Yōkai on this website" target="_blank">https://mythus.fandom.com</a></p><br>
+          <p class="linki">Source: <a href="https://japanobjects.com/features/yokai" title="more hystorical and other details about Yōkai on this website" target="_blank">https://japanobjects.com</a></p>
+      </article>
+    </div>
+  </div>
+</div>
+<br>
+
+ <!-- Modal -->
+ <div class="modal" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">Contact us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="inputname" class="form-label">First name</label>
+          <input type="text" class="form-control" id="inputname" placeholder="First name">
+        </div>
+        <div class="mb-3">
+          <label for="inputlastname" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="inputlastname" placeholder="Last name">
+        </div>
+        <div class="mb-3">
+          <label for="inputemail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="inputemail" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="textarea" rows="3" placeholder="Your text here"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+<div class="container">
+  <div class="row">
+  <footer><p>Copyright, spring 2021, Arjana Petrovcic</p></footer>
+  </div>
+</div> 
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+
+</html>

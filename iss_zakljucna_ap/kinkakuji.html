@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content = "moja, stran, Kinkaku-ji">
+    <meta name="description" content = "Stran predstavlja znani objekt Kinkaku-ji na Japonskem">
+    <meta name="autor" content = "Arjana Petrovcic">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- google font family -->
+    <link rel="stylesheet" href="stili.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Petrona&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Petrona&display=swap" rel="stylesheet">
+    <title>Kinkaku-ji</title>
+    </head>
+    
+  <body>
+ <header>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><strong>Home</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html"><strong>Blog</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html"><strong>Gallery</strong></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="archive.html"><strong>Archive</strong></a>
+            </li>
+
+            <li class="nav-item"></li>
+          </ul>
+            
+            <button class="btn btn-outline contact" data-bs-toggle="modal" data-bs-target="#contact"><strong>Contact</strong></button>
+          
+        </div>
+      
+    </nav>   
+  </header> 
+    <br><br>
+
+<!-- banner -->       
+    <div class="container-fluid">
+      <div class="row" style="background-color:rgb(163, 234, 255) ;">
+        <div class="fullpagemenu" id="nav">
+          <div class="banner d-none d-md-block">
+            <img src="slike/banner.jpg" alt="banner of sakura tree">
+          </div>
+        </div>
+       <br><br>
+
+
+<!-- jumbotron --> 
+<div class="container">
+  <div class="row">
+        <div class="jumbotron">
+          <p class="lead"></p>
+        </div>
+  </div>
+</div>       
+ <div class="col-2" style="background-color: rgb(163, 234, 255);"></div>
+  </div>    
+</div>
+      
+   <!-- container 1 -->    
+<div class="container" style="background-color: rgb(163, 234, 255); text-align: center; max-width: 1520px;">    
+  <div class="row">
+    <div class="col-1" style="background-color: rgb(163, 234, 255);">
+      <article><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h3>Kinkaku-ji</h3>
+        <p class="linki"><a href="https://www.wikipedia.org" target="_blank" title="more on wikipedia website">From Wikipedia, simple encyclopedias</a></p><br>
+  
+              <p><b>Kinkaku-ji</b> (金閣寺, literally "Temple of the Golden Pavilion"), officially named <b>Rokuon-ji</b> (鹿苑寺, literally "Deer Garden Temple"), 
+                is a Zen Buddhist temple in Kyoto, Japan.[2] It is one of the most popular buildings in Kyoto, attracting many visitors annually. 
+                It is designated as a National Special Historic Site, a National Special Landscape and is one of 17 locations making up the Historic 
+                Monuments of Ancient Kyoto which are <a href="https://en.wikipedia.org/wiki/World_Heritage_Site" title="website about world heritage" target="_blank">World Heritage Sites</a>.
+                The pavilion successfully incorporates three distinct styles of architecture, which are shinden, samurai and zen, specifically on each floor. Each floor of the Kinkaku uses a different architectural style.</p><br><br>
+  
+                <p>Source: <a href="https://en.wikipedia.org/wiki/Kinkaku-ji" title="more details about Kinkaku-ji on this website" target="_blank">https://en.wikipedia.org</a></p>
+            </article>
+          </div>
+      </div>
+  </div>
+<br>
+
+ <!-- Modal -->
+ <div class="modal" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">Contact us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="inputemail" class="form-label">First name</label>
+          <input type="text" class="form-control" id="inputname" placeholder="First name">
+        </div>
+        <div class="mb-3">
+          <label for="inputlastname" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="inputlastname" placeholder="Last name">
+        </div>
+        <div class="mb-3">
+          <label for="inputemail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="inputemail" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="textarea" rows="3" placeholder="Your text here"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+<div class="container">
+  <div class="row">
+  <footer><p>Copyright, spring 2021, Arjana Petrovcic</p></footer>
+  </div>
+</div> 
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+
+</html>

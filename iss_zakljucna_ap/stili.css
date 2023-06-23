@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Petrona&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Petrona&display=swap');
+
+body{
+    margin:0;
+}
+
+.bg-light{
+    background-color: rgb(227, 255, 255);
+    font-family: 'Petrona', serif;
+}
+
+.navbar-custom{
+    color:rgb(0, 0, 0);
+    background-color:#A3EAFF;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.navbar-custom .navbar-nav .nav-link {
+    color:black;
+    font-size: 20px;
+}
+.navbar-custom .navbar-nav .nav-link:hover{
+    color:black;
+    background-color: #f1bee8;
+    font-size: 20px;
+}
+
+/*BUTTONS*/
+.contact{
+    background-color: #f1bee8;
+    font-family: 'Petrona', serif;
+    margin-right: 20px;
+}
+.contact:hover{
+    background-color: #f9e3ff;
+    font-family: 'Petrona', serif;
+    margin-right: 20px;
+}
+
+.btn-outline {
+    color: #141619;
+    border-color: #cbedfd;
+}
+
+.btn-outline-primary{
+    color: #fff;
+    background-color: #f1bee8;
+    border-color: #fff1fc;
+    font-family: 'Petrona', serif;
+    transition: padding 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-outline-primary:hover{
+    color: #fff;
+    background-color: #f5b2e9;
+    border-color: #f5b2e9;
+    font-family: 'Petrona', serif;
+    padding: 15px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*.btn.btn-outline-primary.btn-lg:focus {
+    box-shadow: #f5cbfd;
+}*/
+
+.lead .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem #fae5ff;
+    font-family: 'Petrona', serif;
+}
+
+
+/*Previous, back, next button colors*/
+a.btn.next{
+    width:130px;
+    color: rgb(0, 0, 0);
+    background-color: #f5b2e9;
+    border-color: #f5b2e9;
+    font-family: 'Petrona', serif;
+    padding: 10px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+a.btn.next:hover{
+background-color: #fae5ff;
+border-color: #fae5ff;
+}
+
+
+div.form-inline.m-0.p-0.justify-content-center.mb-2{
+    margin-top: -2rem!important;
+}
+
+
+.m-1{
+margin-top: 0.1rem!important;
+}
+
+a.btn.back.m-1{
+    margin-top: 8rem!important;
+}
+
+
+a.btn.previous{
+    width:130px;
+    color: rgb(0, 0, 0);
+    background-color: #f5b2e9;
+    border-color: #f5b2e9;
+    font-family: 'Petrona', serif;
+    padding: 10px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+a.btn.previous:hover{
+    background-color: #fae5ff;
+    border-color: #fae5ff;
+    }
+
+a.btn.back{
+    width:130px;
+    color: rgb(0, 0, 0);
+    background-color: #ffcaf5;
+    border-color: #ffcaf5;
+    font-family: 'Petrona', serif;
+    padding: 10px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Petrona', serif;
+}
+
+a.btn.back:hover{
+    background-color: #fae5ff;
+    border-color: #fae5ff;
+    }
+
+
+/*RANDOM*/
+
+ul{
+    list-style: none;
+    font-family: 'Petrona', serif;
+}
+li{
+    list-style: none;
+    font-family: 'Petrona', serif;
+}
+body{
+    background-color: rgb(255, 236, 255);
+    font-family: 'Petrona', serif;
+}
+
+hr{
+    height: 4px;
+    margin: 3rem 0;
+    color: #00d0ff8f;
+    background-color: currentColor;
+    opacity: .40;
+    display: inline-flex;
+    max-width: 70rem;
+    font-family: 'Petrona', serif;
+}
+
+/* hr {
+  display: block;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-style: inset;
+  border-width: 20px;
+  position="absolute" 
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+} */
+
+
+
+/*CARD*/
+
+.card{
+top: 40rem;
+border: 1px solid rgb(255 255 255);
+}
+
+
+.card-body{
+    flex: 1 1 auto;
+    padding: 40px;
+    background-color: #A3EAFF; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-primary{
+    background-color: #f0b8e5;
+    border-color: #f0b8e5;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-primary:hover{
+    background-color: #00c3ff;
+    border-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*COL-1 do COL-?*/
+.col-1{
+    position: initial;
+    text-align: center;
+    width: 100%;
+    height: 50rem;
+    box-shadow: 0px 4px 8px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.copy{
+    position: initial;
+    text-align: center;
+    width: 100%;
+    height: 35rem;
+}
+
+div.col-1.long{
+    position: initial;
+    text-align: center;
+    width: 100%;
+    height: 100rem;
+    box-shadow: 0px 4px 8px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.col-5{
+    position: initial;
+    text-align: center;
+    width: 50%;
+    height: 30rem;
+}
+
+/*IMG*/
+img.center{
+    height: 768px;
+    width: 1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+
+/*H1-H6*/
+h1{
+    font-family: 'Merienda', cursive;
+}
+
+h2{
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 24rem;
+    text-align: center;
+    width: 100%;
+    height: 28rem;
+}
+
+h3{
+    font-family: 'Merienda', cursive;
+    font-family: 'Merienda', cursive;
+    position: relative;
+    top: 5rem;
+    text-align: center;
+    width: 100%;
+    height: 10rem;
+}
+
+h4{
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+}
+
+
+h5 {
+    font-size: 40px;
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    font-family: 'Merienda', cursive;
+}
+
+
+/*BANNER*/
+
+.fullpagemenu .banner img{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+.jumbotron{
+    position:absolute;
+    top: 400px;
+    text-align: center;
+    height: 170px;
+    font-family: 'Petrona', serif;
+    
+}
+
+.display-4{
+    font-family: 'Merienda', cursive;
+    font-size: 90px;
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+/*CONTAINER*/
+.youkai{
+    background-color: rgb(163, 234, 255);
+    text-align: center;
+    max-width: 1520px;
+}
+
+.linki{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+/*FOOTER*/
+footer p{
+    position: absolute;
+    left: 0;
+    bottom:0rem;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 120rem;
+    font-family: 'Petrona', serif;
+    font-size: 20px;
+  }
+
+  /*display fonta porocila*/
+  h1.display-1{
+      font-size: 50px;
+  }
+
+  /*porocilo button*/
+  a.btn.porocilo.m-1{
+    background-color: #86e3ff;
+    border-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+    bottom: -75rem;
+    font-family: 'Petrona', serif;
+  }
+
+  a.btn.porocilo.m-1:hover{
+  background-color: #f8cdf0;
+  border-color: #ffffff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: 'Petrona', serif;
+}
